@@ -98,14 +98,15 @@
       padding:5px;
       }
 }
-}
+
   
 
 /********** small devices only **********/
 @media (max-width: 767px) {
-  .col-sm-12 {margin-bottom: 1%;padding:0px 0px 10px 10px;
+  .col-sm-12 {margin-bottom: 1%;
+    padding:0px 0px 10px 10px;
   	position:relative;
-  	background-color: grey;
+  	background-color:grey;
     border: 1px solid black;
    }
      #chicken, #beef, #sushi { position:relative;
@@ -120,11 +121,11 @@
       
   #beef {background-color:#ff9999;}
 
-  #sushi{background-color:#45caf6;}
+  #sushi {background-color:#45caf6;}
   #content {clear:both;
       padding:5px;
       }
 }
- }
+ 
   
 
