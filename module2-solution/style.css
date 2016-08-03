@@ -13,6 +13,8 @@
 		 	margin-top: 50px;
 		 }
 
+
+
 .row {
   width: 100%;
 }
@@ -35,38 +37,94 @@
     float: left;
     border: 1px solid black;
     background-color: grey;
-    padding:20px;
+    padding:0px 0px 20px 20px;
+    position:relative;
 
   }
   
+  #chicken, #beef, #sushi { position:relative;
+  	float: right;
+    width: 25%;
+    text-align: center;
+    padding:5px;
+  	margin-bottom:10px;
+  	border:1px solid black;
+
+  }
+
+  	#chicken {background-color:#cc3333;}
+  
+    #beef {background-color:#ff9999;}
+
+    #sushi{background-color:#45caf6;}
+
+    #content {clear:both;
+      padding:5px;
+      }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
- .col-md-6{ width:48%; padding:10px; margin-left: 1%;margin-right: 1%;
+ .col-md-6{ width:48%; padding:0px 0px 10px 10px; margin-left: 1%;margin-right: 1%;
     float: left;
+    position:relative;
     border: 1px solid black;
     background-color: grey;    
-    padding:1.0em;
+    
   }
   .col-md-12{ width:98%; float:left;
   	margin-left:1%;
   	margin-top:1%;
   	margin-right: 1%;
-    padding:1.0em;
+    padding:0px 0px 10px 10px;
     border: 1px solid black;
     background-color: grey;
 
   }
+    #chicken, #beef ,#sushi { position:relative;
+  	float: right;
+    width: 25%;
+    padding:5px;
+    text-align: center;
+  	 margin-bottom: 10px;
+  	border:1px solid black;
+  }
+  	#chicken {background-color:#cc3333;}
+  
+    #beef {background-color:#ff9999;}
+
+    #sushi{background-color:#45caf6;}
+    #content {clear:both;
+      padding:5px;
+      }
+}
 }
   
 
 /********** small devices only **********/
 @media (max-width: 767px) {
-  .col-sm-12 {margin-bottom: 1%;padding:1.0em;
+  .col-sm-12 {margin-bottom: 1%;padding:0px 0px 10px 10px;
+  	position:relative;
   	background-color: grey;
     border: 1px solid black;
    }
+     #chicken, #beef, #sushi { position:relative;
+  	float: right;
+  	text-align: center;
+  	margin-bottom: 10px;
+    padding:5px;
+  	border:1px solid black;
+    width:15%;
+  }
+  #chicken {background-color:#cc3333;}
+      
+  #beef {background-color:#ff9999;}
+
+  #sushi{background-color:#45caf6;}
+  #content {clear:both;
+      padding:5px;
+      }
+}
  }
   
 
