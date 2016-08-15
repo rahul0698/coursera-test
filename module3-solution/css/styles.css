@@ -41,7 +41,9 @@ body {
 }
 
 #collapsable-nav {
+  font-weight: bold;
   border-color: #000;
+  background-color:#fec1c1;
 }
 .navbar-header button.navbar-toggle {
   border:2px solid #222;
@@ -62,12 +64,37 @@ body {
   background-color: grey;
   margin-bottom:20px;
   border:1px solid #222;
-  margin-left: 10px;
-  margin-right: 10px;
- }
+  }
 #menu-category p {
   padding-right: 15px;
   padding-left: 15px;
    }
 
+@media (min-width: 1200px) {
+    .col-md-4 {
+      width:360px;
+      margin-right: 10px;
+      margin-left: 10px;
+        }
+    }
+@media (min-width:992px) and (max-width: 1199px) {
+  .col-md-4 {
+    width: 303.33px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-sm-6{
+      width:328px;
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+  .col-sm-12 {
+    width:676px;
+    margin-left: 10px;
+  }
+
+}
    
